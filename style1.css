@@ -1,0 +1,152 @@
+.navbar {
+	font-family: courier;
+	height: 70px;
+	width: 100%;
+	background: white;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.navbar img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding: 20px;
+}
+
+label {
+	font-family: courier;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	margin: 10px;
+	padding: 20px;
+	float: left;
+}
+
+.navbar ul {
+	margin: 0px;
+	padding: 10px;
+	background: none;
+	display: block;
+	float: right;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+}
+
+.navbar ul li a:hover {
+	display: block;
+	color: grey;
+	background: white;
+	box-shadow: inset 0px 0px 5px grey;
+	border-radius: 5px;
+}
+
+.navbar ul li .dropdown {
+	display: none;
+	border-radius: 5px;
+}
+
+.navbar ul li:hover .dropdown {
+	display: block;
+	background: white;
+	position: absolute;
+	padding: 10px;
+}
+
+.navbar ul li:hover .dropdown li {
+	display: block;
+}
+
+.navbar ul li:hover .dropdown li a {
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.navbar ul li:hover .dropdown li a:hover {
+	background: white;
+	box-shadow:inset 0px 0px 5px grey;
+}
+
+.tittle {
+	width: 100%;
+	height: 300px;
+	background: slategray;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+.tittle h1{
+	font-size: 50px;
+	font-family: courier;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.tittle p {
+	font-family: courier;
+	font-size: 25px;
+	text-align: center;
+}
+
+.item {
+	width: 100%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+}
+
+.barang {
+	text-align: center;
+}
+
+.item .barang img {
+	height: 150px ;
+	width: 150px;
+}
+
+.barang a {
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid slategrey;
+	border-radius: 5px;
+	color: black;
+	font-family: courier;
+
+}
+
+.barang a:hover {
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #FFF;
+	background-color: slategrey;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-family: courier;
+	font-size: 15px;
+	background-color: slategrey;
+	padding-top:5px;
+	margin-top: 50px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+}
